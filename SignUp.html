@@ -1,0 +1,167 @@
+<!-- 선휘 폴더 -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Capture shop</title>
+    <link rel="stylesheet" href="SignUp.css">
+  </head>
+  <body>
+    <header>
+      <div id = "header">
+        <a id = "logo-a" href="home.html"><img id = "logoimg" src="logo_white.png"></a>
+        <div><a href="Order.html">주문조회</a></div>
+        <div><a href="Cart.html">장바구니</a></div>
+        <div><a href="SignUp.html">회원가입</a></div>
+        <div><a href="Login.html">로그인</a></div>
+        <div><a href="Home.html">검색</a></div>
+      </div>
+    </header>
+    <nav>
+      <div id = "nav">
+        <div><a href="new.html">신상</a></div>
+        <div><a href="best.html">BEST</a></div>
+        <div><a href="cap.html">캡</a></div>
+        <div><a href="beanie.html">비니</a></div>
+        <div><a href="floppy.html">플로피</a></div>
+        <div><a href="kids.html">아동</a></div>
+      </div>
+    </nav>
+
+    <content class="content">
+
+      <div id="signUpBanner">
+        <div id="signUpTable">
+          <div class="signUp">
+            <p>회원가입</p>
+          </div>
+          <p class="subject">회원구분</p>
+          <table class="signUpForm">
+            <tr>
+                <td class="contentName">회원가입</td>
+                <td class="contentcontent"><input type="radio" name="account" checked>개인회원 <input type="radio" name="account">사업자회원</td>
+            </tr>
+            <tr>
+                <td class="contentName">사업자구분</td>
+                <td class="contentcontent"><input type="radio" name="account" checked>개인사업자 <input type="radio" name="account">법인사업자</td>
+            </tr>
+          </table>
+          <p class="subject">상세정보</p>
+          <table class="signUpForm">
+              <td class="contentName">아이디<span>*</span></td>
+              <td class="contentcontent"><input type="text"> <input type="button" value="아이디 중복확인"></td>
+            </tr>
+            <tr>
+              <td class="contentName">비밀번호<span>*</span></td>
+              <td class="contentcontent"><input type="password"></td>
+            </tr>
+            <tr>
+              <td class="contentName">비밀번호 재입력<span>*</span></td>
+              <td class="contentcontent"><input type="password"></td>
+            </tr>
+            <tr>
+              <td class="contentName">비밀번호 확인 질문<span>*</span></th>
+              <td class="contentcontent"><select id="hint" name="hint">
+                <option value="hint_01">기억에 남는 추억의 장소는?</option>
+                <option value="hint_02">자신의 인생 좌우명은?</option>
+                <option value="hint_03">자신의 보물 제1호는?</option>
+                <option value="hint_04">가장 기억에 남는 선생님 성함은?</option>
+                <option value="hint_05">타인이 모르는 자신만의 신체비밀이 있다면?</option>
+                <option value="hint_06">추억하고 싶은 날짜가 있다면?</option>
+                <option value="hint_07">받았던 선물 중 기억에 남는 독특한 선물은?</option>
+                <option value="hint_08">유년시절 가장 생각나는 친구 이름은?</option>
+                <option value="hint_09">인상 깊게 읽은 책 이름은?</option>
+                <option value="hint_10">읽은 책 중에서 좋아하는 구절이 있다면?</option>
+                <option value="hint_11">자신이 두번째로 존경하는 인물은?</option>
+                <option value="hint_12">친구들에게 공개하지 않은 어릴 적 별명이 있다면?</option>
+                <option value="hint_13">초등학교 때 기억에 남는 짝꿍 이름은?</option>
+                <option value="hint_14">다시 태어나면 되고 싶은 것은?</option>
+                <option value="hint_15">내가 좋아하는 캐릭터는?</option>
+                </select></td>
+            </tr>
+            <tr>
+              <td class="contentName">비밀번호 확인 답변<span>*</span></td>
+              <td class="contentcontent"><input type="text"></td>
+            </tr>
+            <tr>
+              <td class="contentName">이름<span>*</span></td>
+              <td class="contentcontent"><input type="text"></td>
+            </tr>
+            <tr>
+              <td class="contentName">개인정보 사용동의<span>*</span></td>
+              <td class="contentcontent"><br>회사는 회원의 본인확인 및 서비스제공을 위하여 고유식별정보를 수집하여 보관하며 개인정보취급방침에 따라
+보유 및 이용합니다. 고유식별정보 제공을 거부하는 경우 서비스 이용이 제한됩니다.<br><br><input type="checkbox"> 동의하는 경우 체크</td>
+            </tr>
+            <tr>
+                <td class="contentName">성별</td>
+                <td class="contentcontent"><input type="radio" name="manOrWoman" checked>여자 <input type="radio" name="manOrWoman">남자</td>
+            </tr>
+            <tr>
+              <td class="contentName">주소</td>
+              <td class="contentcontent"><input type="text"> - <input type="text"> 우편번호<br>
+              <input type="text"><br>
+              <input type="text"> </td>
+            </tr>
+            <tr>
+                <td class="contentName">전화번호</td>
+                <td class="contentcontent"><select>
+                <option value="02">02</option>
+                <option value="031">031</option>
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="019">019</option>
+                </select>-<input type="text">-<input type="text"></td>
+            </tr>
+            <tr>
+                <td class="contentName">생일</td>
+                <td class="contentcontent"><input type="date"></td>
+            </tr>
+          </table>
+          <div class="signUp">
+            <p>
+              <input class="signUpButton" type=button value="회원가입">
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </content>
+
+
+    <footer>
+      <div id = "footer">
+          <div><img id = "footerimg" src="logo_white.png">
+          </div>
+          <div>
+            <p>
+            @ How to contact <br>
+            010-9270-9290 <br>
+            110-381-277789 신한은행 정초이 <br>
+            thecho2cho2@gmail.com<br>
+            서울특별시 노원구 공릉로 232 서울과학기술대학교
+            </p>
+          </div>
+          <div>
+            <p>
+            @ How to contact <br>
+            010-2352-0300 <br>
+            351-0675-8803-13 농협중앙회 김초희 <br>
+            qwerpoiu1316@naver.com <br>
+            서울특별시 노원구 공릉로 232 서울과학기술대학교
+            </p>
+          </div>
+          <div>
+            <p>
+            @ How to contact <br>
+            010-5729-4889<br>
+            356-0869-2336-13 농협중앙회 김선휘 <br>
+            rlatjsgnl519@gmail.com<br>
+            서울특별시 노원구 공릉동 408-108 101호
+            </p>
+          </div>
+
+      </div>
+    </footer>
+  </body>
+</html>

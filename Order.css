@@ -1,0 +1,133 @@
+#header{
+  background-color:black;
+  height:110px;
+
+}
+#header #logo-a{
+  display:block;
+  float: left;
+}
+#header #logo-a #logoimg{
+  width:170px;
+  height:80px;
+  margin-left: 20px;
+  margin-top: 14px;
+}
+#header div{
+  display: inline-block;
+  float: right;
+  width : 10%;
+  margin-top: 40px;
+}
+#header div a{
+  text-decoration: none;
+  color:white;
+  margin-right: 20px;
+  vertical-align:middle;
+  font-weight: bold;
+}
+#nav{
+  height:70px;
+  margin-top: 50px;
+  border-bottom-color:black;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  text-align : center;
+}
+#nav div a{
+  position: absolute;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+
+}
+#nav div:hover{
+  font-size:150%;
+}
+#nav div{
+  width: 10%;
+  height:50%;
+  display : inline-block;
+  text-align: center;
+
+}
+
+.section{
+  width : 100%;
+  height: 100%;
+  margin-bottom: 12%;
+}
+.cartBanner{
+  width : 70%;
+  height : 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top : 2%;
+
+}
+.cartBanner table{
+  width:100%;
+  height:100%;
+  border : 1px solid;
+}
+.cartBanner th{
+  font-size: 20px;
+  border: 1px solid;
+}
+.cartBanner tr .topHead{
+  background-color:black;
+  color:white;
+  border: 1px solid black;
+}
+.cartBanner td{
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid;
+}
+
+.orderList{
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+#footer{
+  clear: both;
+  background-color: black;
+  height:150px;
+  text-align: center;
+}
+#footer div{
+  display: block;
+  float: right;
+  text-align: right;
+  color:white;
+  margin-right: 20px;
+  font-size: 1vw;
+}
+#footer #footerimg{
+  width:170px;
+  height:100px;
+  margin-top: 20px;
+  float : right;
+}
+
+#topclick{
+  position:fixed;
+  right:3%;
+  bottom:3%;
+  float:left;
+  margin-top: 3%;
+  margin-left:1%;
+  width:5%;
+  height:10%;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+
+#topclick img{
+  margin: 9%;
+  width: 80%;
+  height:80%;
+}

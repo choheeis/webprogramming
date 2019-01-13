@@ -1,0 +1,246 @@
+#header{
+  background-color:black;
+  height:110px;
+
+}
+#header #logo-a{
+  display:block;
+  float: left;
+}
+#header #logo-a #logoimg{
+  width:170px;
+  height:80px;
+  margin-left: 20px;
+  margin-top: 14px;
+}
+#header div{
+  display: inline-block;
+  float: right;
+  width : 10%;
+  margin-top: 40px;
+}
+#header div a{
+  text-decoration: none;
+  color:white;
+  margin-right: 20px;
+  vertical-align:middle;
+  font-weight: bold;
+}
+#nav{
+  height:70px;
+  margin-top: 50px;
+  border-bottom-color:black;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  text-align : center;
+}
+#nav div a{
+  position: absolute;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+
+}
+#nav div:hover{
+  font-size:150%;
+}
+#nav div{
+  width: 10%;
+  height:50%;
+  display : inline-block;
+  text-align: center;
+
+}
+#content{
+  height:100%;
+  width:100%;
+}
+#informationPart{
+  float:left;
+
+  width:90%;
+  height:100%;
+}
+#pricePart{
+  float: left;
+  width:100%;
+  height:30%;
+}
+#detailPart{
+  background-color: blue;
+  width:100%;
+  height:30%;
+}
+hr{
+  border:0px;
+  background-color:gray;
+  height: 2px;
+  margin-left: 15%;
+}
+#DETAIL{
+  display: block;
+  float: left;
+  color: gray;
+  margin-left: 15%;
+  font-size: 200%;
+}
+#img{
+  float: left;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-right: 5%;
+  width:30%;
+  height:30%;
+
+}
+#img img{
+  width:100%;
+  height:100%;
+}
+#price{
+  float: left;
+  margin-left: 5%;
+  width:45%;
+  height:55%;
+  margin-left: 5%;
+  margin-top: 10%;
+
+}
+
+#title{
+  font-size:20px;
+  font-weight: bold;
+}
+#brandname{
+  font-size: 20px;
+  color:lightgray;
+  font-weight: bold;
+  font-style: italic;
+}
+#originalPrice{
+  text-decoration: line-through;
+  color:lightgray;
+  font-size: 27px;
+  font-weight: bold;
+
+}
+#sellPrice{
+  color:lightgray;
+  font-size: 27px;
+  font-weight: bold;
+}
+#discount{
+  font-size: 30px;
+  color:#F15F5F;
+  background-color: lightgray;
+  width:70%;
+  text-align: center;
+
+}
+#check{
+  border-top: 2px dotted gray;
+  width:100%;
+  height:40%;
+
+}
+#Img1{
+
+  margin-left: 35%;
+  margin-top: 15%;
+  height:30%;
+  width:40%;
+}
+#Img2{
+
+  margin-left: 30%;
+  margin-top: 30%;
+  height:50%;
+  width:50%;
+}
+#Img3{
+
+  margin-left: 40%;
+  margin-top: 30%;
+  height:40%;
+  width:30%;
+}
+#Img4{
+
+  margin-left: 37%;
+  margin-top: 30%;
+  height:40%;
+  width:35%;
+}
+#detailImg img{
+
+  width:100%;
+  height:100%;
+}
+#brandIntro{
+
+  text-align: center;
+  margin-left: 10%;
+  font-size: 20px;
+  margin-top: 10%;
+  font-style: italic;
+  line-height: 2.2em;
+
+}
+select{
+  display: block;
+  float: left;
+}
+form{
+  font-weight: bold;
+  color: #A6A6A6;
+}
+#topclick{
+  position:fixed;
+  right:3%;
+  bottom:3%;
+  float:left;
+  margin-top: 3%;
+  margin-left:1%;
+  width:5%;
+  height:10%;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+#submit input{
+  width:100px;
+  height:40px;
+  margin: 10px;
+}
+#detailImg{
+
+  width:100%;
+  height:100%;
+  float:left;
+}
+#topclick img{
+  margin: 9%;
+  width: 80%;
+  height:80%;
+}
+#footer{
+  clear: both;
+  background-color: black;
+  height:150px;
+  text-align:f center;
+}
+
+#footer #manager{
+  display: block;
+  float: right;
+  text-align: right;
+  color:white;
+  margin-right: 20px;
+}
+#footer #footerimg{
+  width:170px;
+  height:100px;
+  margin-top: 20px;
+  float : right;
+}
